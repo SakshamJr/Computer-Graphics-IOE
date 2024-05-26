@@ -1,5 +1,5 @@
 # Computer-Graphics-IOE
-This repository contains source code and resources related to the lab sessions for the Computer Graphics course in the 3rd year of the Computer Engineering program.
+This repository contains source code and resources related to the lab sessions for the Computer Graphics course in the 3rd year of the Computer Engineering program of the Institute of Engineering, Pulchowk Campus, Tribhuvan University.
 ### Course Topics Covered
 This repository includes implementations and examples for the following topics:
 
