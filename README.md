@@ -26,4 +26,4 @@ Filling a bounded region with a color.
 #### 11. Introduction to OPENGL:
 Basics of using OpenGL for rendering 2D and 3D graphics.
 
-### Note: You may require to use TURBO C++ for running the codes.
+### Note: You may need to use TURBO C++ to run the code.
