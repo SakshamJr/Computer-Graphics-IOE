@@ -24,33 +24,33 @@ void liangBarskyClip(int x0, int y0, int x1, int y1)
 
     for (int i = 0; i < 4; i++)
     {
-        if (p[i] == 0)
-        {
-            if (q[i] < 0)
-                return; // Parallel line is outside the clipping window
-        }
-        else
-        {
-            float t = q[i] / p[i];
-            if (p[i] < 0)
-            {
-                if (t > t1)
-                    return;
-                if (t > t0)
-                    t0 = t;
-            }
-            else
-            {
-                if (t < t0)
-                    return;
-                if (t < t1)
-                    t1 = t;
-            }
-        }
+	if (p[i] == 0)
+	{
+	    if (q[i] < 0)
+		return; // Parallel line is outside the clipping window
+	}
+	else
+	{
+	    float t = q[i] / p[i];
+	    if (p[i] < 0)
+	    {
+		if (t > t1)
+		    return;
+		if (t > t0)
+		    t0 = t;
+	    }
+	    else
+	    {
+		if (t < t0)
+		    return;
+		if (t < t1)
+		    t1 = t;
+	    }
+	}
     }
 
     if (t0 > t1)
-        return;
+	return;
 
     int clipped_x0 = x0 + t0 * dx;
     int clipped_y0 = y0 + t0 * dy;
