@@ -1,7 +1,7 @@
-#include <graphics.h>
-#include <conio.h>
 #include <stdio.h>
+#include <conio.h>
 #include <stdlib.h>
+#include <graphics.h>
 
 // Region codes
 const int INSIDE = 0; // 0000
