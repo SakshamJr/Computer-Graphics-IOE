@@ -17,13 +17,7 @@ Line clipping algorithm to handle lines outside the clipping window.
 Efficient line clipping algorithm using parametric equations.
 #### 7. 2D Transformations:
 Implementation of 2D geometric transformations including translation, rotation, scaling, and shearing.
-#### 8. Bezier Curves:
-Drawing and manipulating Bezier curves.
-#### 9. Flood Filling:
-Filling an area with a color based on boundary or connected pixels.
-#### 10. Boundary Filling:
-Filling a bounded region with a color.
-#### 11. Introduction to OPENGL:
-Basics of using OpenGL for rendering 2D and 3D graphics.
+#### 8. 3D Transformations:
+Implementation of 2D geometric transformations including translation, rotation, scaling, and shearing.
 
 ### Note: You may need to use TURBO C++ to run the code.
